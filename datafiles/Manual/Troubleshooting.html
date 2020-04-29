@@ -1,91 +1,321 @@
-<html><head><title>Cave Story (Troubleshooting)</title>
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
 
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=shift_jis">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Troubleshooting.files/filelist.xml">
+<title>洞窟物語 (問題と対策)</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>gguo</o:Author>
+  <o:LastAuthor>gguo</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>11</o:TotalTime>
+  <o:Created>2008-07-09T08:54:00Z</o:Created>
+  <o:LastSaved>2008-07-09T09:07:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>116</o:Words>
+  <o:Characters>666</o:Characters>
+  <o:Company>gguonara</o:Company>
+  <o:Lines>5</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>781</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
 <style>
-DIV{font-size:12px;font-family:&#8218;l&#8218;r &#8218;o&#402;S&#402;V&#402;b&#402;N;}
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;
+	mso-font-alt:Batang;
+	mso-font-charset:129;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;
+	mso-font-alt:Gulim;
+	mso-font-charset:129;
+	mso-generic-font-family:modern;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+@font-face
+	{font-family:"MS PGothic";
+	panose-1:2 11 6 0 7 2 5 8 2 4;
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:"\@MS PGothic";
+	panose-1:2 11 6 0 7 2 5 8 2 4;
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;
+	mso-font-charset:129;
+	mso-generic-font-family:modern;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;
+	mso-font-charset:129;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"MS PGothic";
+	mso-bidi-font-family:"MS PGothic";
+	color:#002963;
+	mso-fareast-language:JA;}
+a:link, span.MsoHyperlink
+	{color:#D56F00;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#D56F00;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:99.25pt 3.0cm 3.0cm 3.0cm;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"\D45C\C900 \D45C";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<STYLE>
+DIV{font-size:12px;font-family:ＭＳ Ｐゴシック;}
 BODY{margin:8px 0px 0px 8px;}
-</style></head>
+</STYLE>
 
+<body bgcolor=white lang=KO link="#D56F00" vlink="#D56F00" style='tab-interval:
+40.0pt' alink=D56F88>
 
-<body alink="#d56f88" bgcolor="#ffffff" link="#d56f00" text="#002963" vlink="#d56f00">
+<div class=Section1>
+
 <div>
-- Troubleshooting -<br>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-language:
+KO'>■■ </span><span class=SpellE><span style='font-family:Batang;mso-ascii-font-family:
+"MS PGothic";mso-hansi-font-family:"MS PGothic";mso-fareast-language:KO'>&#51088;&#51452;&#51080;&#45716;&#51656;&#47928;</span></span><span
+style='mso-fareast-language:KO'> ■■<span lang=EN-US><br>
 <br>
-The following are possible issues that may occur while playing the game.<br>
-If you run across problems not listed here, feel free to contact the author via email or on Studio Pixel's message board.<br>
-<br>
-(Translator's note: Studio Pixel is not responsible for errors and problems related to the AGTP English translation patch.<br>
-If you have problems related to the translation, kindly email the AGTP
-at aeongen@gmail.com or post a message on the Pantheon at <a href="http://agtp.romhack.net/">http://agtp.romhack.net/</a>.)<br>
-<br>
-<br>
-<font color="#dd0000">* I get an error message saying, "Cannot read generic file."<br>
-(Translator's note: Error messages may appear in Japanese.)</font><br>
-<br>
-- Try redownloading the game.<br>
-The files may have been corrupted.<br>
-<br>
-- Try using a different uncompression program.<br>
-Some uncompression software may alter the directory structure so that the program is unable to find certain files.<br>
-<br>
-<font color="#dd0000">* The game runs extremely slowly.</font><br>
-<br>
-- Try changing the screen mode in DoConfig.exe.<br>
-There shouldn't be any problems if your computer is fast enough,<br>
-but the most appropriate screen mode can vary depending on the computer.<br>
-(Full-screen is recommended.)<br>
-<br>
-- Try changing the "color quality" in your Display Properties.<br>
-Depending on your computer, the number of colors displayed can significantly affect the game speed.<br>
-24-bit or 32-bit color is recommended.<br>
-<br>
-- Try adjusting your DirectX settings.<br>
-You can adjust DirectX settings using the diagnostic tool "dxdiag.exe".<br>
-Select "Run..." from the Start Menu and enter "dxdiag".<br>
-For detailed instructions on how to use the tool, consult the program's "Help" function.<br>
-<br>
-- Try adjusting your hardware acceleration.<br>
-You can change the settings of your hardware acceleration<br>
-by opening Display Properties -&gt; Settings -&gt; Advanced and selecting the "Troubleshoot" or "Performance" tag.<br>
-<br>
-- Try updating your drivers.<br>
-Some problems may be resolved if you update your graphics drivers.<br>
-<br>
-<font color="#dd0000">* The background music cuts off.</font><br>
-<br>
-- Try adjusting your audio hardware acceleration.<br>
-You may be able to fix this problem by adjusting the hardware acceleration for your sound card.<br>
-Open Control Panel -&gt; Sounds and Audio Devices -&gt; Audio -&gt; Advanced -&gt; Performance.<br>
-<br>
-<font color="#dd0000">* When I press two keys on the keyboard at once, only one registers.</font><br>
-<br>
-- Change the keys in DoConfig.exe.<br>
-Some keyboards fail to register the down-arrow key if "Z" and the right-arrow key are pressed.<br>
-If this is the case, please play using the "&lt; &gt; /" setting.<br>
-<br>
-<font color="#dd0000">* When playing with a gamepad, the main character moves in directions that aren't being pressed.</font><br>
-<br>
-- Please restart the game without any buttons on the gamepad being pressed.<br>
-If you start the game while holding a directional button,<br>
-the game will have problems recognizing directional input after that.<br>
-<br>
-<font color="#dd0000">* Saving doesn't work.</font><br>
-<br>
-- Save data is stored in the file "Profile.dat", created in the same directory as Doukutsu.exe.<br>
-If this file cannot be written to, saving will not be possible.<br>
-Check that "Profile.dat" is not set to "Read-only" and that the game is not being run from a read-only drive.<br>
-<br>
-<font color="#dd0000">* Running in 256-color mode</font><br>
-<br>
-- This game was created assuming an operating environment with 16-bit color or higher.<br>
-Playing with only 256 colors will result in abrupt color shifts and missing portions of some pictures, among other problems.<br>
-I have no plans to correct this.<br>
-<br>
-<font color="#dd0000">* The "error" file</font><br>
-<br>
-If certain errors cause the game to quit, a file labeled "error" will sometimes be created in the same directory<br>
-as the executable (Doukutsu.exe).  This file can be deleted safely.<br>
+</span></span><span style='font-family:Gulim;mso-bidi-font-family:Gulim;
+mso-fareast-language:KO'>&#44172;&#51076;&#51012; &#54540;&#47112;&#51060; &#54616;&#45716; &#46020;&#51473; &#49373;&#44600; &#49688; &#51080;&#45716; &#47928;&#51228;&#50640; &#45824;&#54620; &#45824;&#52293;&#51012; &#50668;&#44592; &#51201;&#49845;&#45768;&#45796;<span
+lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:KO'> <br>
 <br>
 <br>
+</span><span style='color:#DD0000;mso-fareast-language:KO'>■「</span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;color:#DD0000;mso-fareast-language:
+KO'>&#48276;&#50857;&#54028;&#51068;&#51012; <span class=SpellE>&#51069;&#51012;&#49688;&#50630;&#49845;&#45768;&#45796;</span><span lang=EN-US>.</span></span><span
+style='color:#DD0000;mso-fareast-language:KO'>」</span><span style='font-family:
+Gulim;mso-bidi-font-family:Gulim;color:#DD0000;mso-fareast-language:KO'>&#46321;&#51032; &#50640;&#47084;&#44032; &#45208;&#50741;&#45768;&#45796;</span><span
+style='color:#DD0000;mso-fareast-language:KO'>。</span><span lang=EN-US
+style='mso-fareast-language:KO'><br>
 <br>
+</span><span style='mso-fareast-language:KO'>→</span><span style='font-family:
+Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#45796;&#49884; <span
+class=SpellE>&#45796;&#50868;&#47196;&#46300;&#54644;</span> &#51452;&#49464;&#50836;<span lang=EN-US>.</span></span><span lang=EN-US
+style='mso-fareast-language:KO'><br>
+</span><span style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:
+KO'>&#54028;&#51068;&#51060; &#44648;&#51652; &#44221;&#50864;&#51064; &#44221;&#50864;&#44032; &#47566;&#49845;&#45768;&#45796;<span lang=EN-US>.</span></span><span lang=EN-US
+style='mso-fareast-language:KO'><br>
+</span><span style='mso-fareast-language:KO'>→</span><span style='font-family:
+Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#50517;&#52629; &#49548;&#54532;&#53944;&#50920;&#50612;&#47484; &#48320;&#44221;&#54644; &#51452;&#49464;&#50836;<span
+lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:KO'><br>
+</span><span style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:
+KO'>&#50517;&#52629;&#51012; &#54400; &#46412; &#49324;&#50857;&#54620; &#54532;&#47196;&#44536;&#47016;&#50640; &#46384;&#46972; &#47928;&#51228;&#44032; <span class=SpellE>&#49373;&#44600;&#49688;&#46020;</span> &#51080;&#49845;&#45768;&#45796;<span
+lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:KO'><br>
+<br>
+</span><span style='color:#DD0000;mso-fareast-language:KO'>■</span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;color:#DD0000;mso-fareast-language:
+KO'>&#44172;&#51076;&#51032; &#52376;&#47532;&#49549;&#46020;&#44032; &#45712;&#47549;&#45768;&#45796;<span lang=EN-US>.</span></span><span lang=EN-US
+style='mso-fareast-language:KO'><br>
+<br>
+</span><span style='mso-fareast-language:KO'>→<span lang=EN-US> DoConfig.exe</span></span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#50640;&#49436;
+&#54868;&#47732; &#47784;&#46300;&#47484; &#48320;&#44221;&#54633;&#45768;&#45796;<span lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:
+KO'><br>
+</span><span style='mso-fareast-language:KO'>（</span><span class=SpellE><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#54400;&#49828;&#53356;&#47536;&#47784;&#46300;&#47484;</span></span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'> &#52628;&#52380;&#54633;&#45768;&#45796;<span
+lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:KO'> </span><span
+style='mso-fareast-language:KO'>）<span lang=EN-US><br>
+<br>
+</span>→</span><span style='font-family:Gulim;mso-bidi-font-family:Gulim;
+mso-fareast-language:KO'>&#54868;&#47732;&#49444;&#51221;&#50640;&#49436; &#54868;&#47732;<span lang=EN-US>bit</span>&#47484; &#48320;&#44221;&#54633;&#45768;&#45796;<span
+lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:KO'> <br>
+</span><span lang=EN-US style='mso-fareast-font-family:Batang;mso-fareast-language:
+KO'>(</span><span lang=EN-US style='mso-fareast-language:KO'>24bit</span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#45208;</span><span
+lang=EN-US style='mso-fareast-language:KO'> 32bit </span><span class=SpellE><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#47484;</span></span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'> &#44428;&#51109;&#54633;&#45768;&#45796;<span
+lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-font-family:Batang;
+mso-fareast-language:KO'>)</span><span lang=EN-US style='mso-fareast-language:
+KO'><br>
+<br>
+</span><span style='mso-fareast-language:KO'>→</span><span style='font-family:
+Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#46300;&#46972;&#51060;&#48260;&#47484; &#48320;&#44221;&#54633;&#45768;&#45796;<span
+lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:KO'><br>
+</span><span style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:
+KO'>&#44536;&#47000;&#54589; &#46300;&#46972;&#51060;&#48260;&#47484; &#48320;&#44221;&#54632;&#51004;&#47196;&#50024; &#49457;&#45733;&#51060; &#44060;&#49440;&#46112; &#44032;&#45733;&#49457;&#51060; &#51080;&#49845;&#45768;&#45796;<span lang=EN-US>.</span></span><span
+lang=EN-US style='mso-fareast-language:KO'><br>
+<br>
+</span><span style='color:#DD0000;mso-fareast-language:KO'>■</span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;color:#DD0000;mso-fareast-language:
+KO'>&#53412;&#48372;&#46300;&#47484; &#46041;&#49884;&#50640;<span lang=EN-US> 2</span>&#44060; &#45572;&#47476;&#47732; &#51096; &#47673;&#55176;&#51648; &#50506;&#49845;&#45768;&#45796;<span lang=EN-US>.</span></span><span
+lang=EN-US style='mso-fareast-language:KO'><br>
+<br>
+</span><span style='mso-fareast-language:KO'>→<span lang=EN-US>DoConfig.exe</span></span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#50640;&#49436;
+<span class=SpellE>&#51312;&#51089;&#53412;&#47484;</span> &#48320;&#44221;&#54644; &#48372;&#49464;&#50836;<span lang=EN-US>.</span></span><span
+lang=EN-US style='mso-fareast-language:KO'><br>
+<br>
+</span><span style='color:#DD0000;mso-fareast-language:KO'>■</span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;color:#DD0000;mso-fareast-language:
+KO'>&#44172;&#51076;&#54056;&#46300; &#49324;&#50857;&#49884; &#45572;&#47476;&#51648; &#50506;&#51008; &#48169;&#54693;&#51004;&#47196; &#51060;&#46041;&#54633;&#45768;&#45796;<span lang=EN-US>.</span></span><span lang=EN-US
+style='mso-fareast-language:KO'><br>
+<br>
+</span><span lang=JA>→</span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#44172;&#51076;&#54056;&#46300;</span><span style='font-family:Gulim;
+mso-bidi-font-family:Gulim'> </span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#48260;&#53948;&#51012;</span><span style='font-family:Gulim;
+mso-bidi-font-family:Gulim'> </span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#54616;&#45208;&#46020;</span><span style='font-family:Gulim;
+mso-bidi-font-family:Gulim'> </span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#45572;&#47476;&#51648;</span><span style='font-family:Gulim;
+mso-bidi-font-family:Gulim'> </span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#50506;&#51008;</span><span style='font-family:Gulim;
+mso-bidi-font-family:Gulim'> </span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#49345;&#53468;&#47196;</span><span style='font-family:Gulim;
+mso-bidi-font-family:Gulim'> </span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#44592;&#46041;&#54644;&#51452;&#49464;&#50836;</span><span lang=EN-US><br>
+<br>
+</span><span style='color:#DD0000;mso-fareast-language:KO'>■</span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;color:#DD0000;mso-fareast-language:
+KO'>&#49464;&#51060;&#48652;&#44032; &#50504;&#46121;&#45768;&#45796;<span lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:
+KO'><br>
+<br>
+</span><span style='mso-fareast-language:KO'>→<span lang=EN-US>&quot;Doukutsu.exe&quot;</span></span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#50752; &#44057;&#51008;
+&#54260;&#45908;&#50640; &#51080;&#45716;<span lang=EN-US> <span class=SpellE>Profile.dat</span></span>&#44032; &#49464;&#51060;&#48652; &#54028;&#51068;&#51077;&#45768;&#45796;<span
+lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:KO'><br>
+</span><span class=SpellE><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#51060;&#54028;&#51068;&#51012;</span></span><span style='font-family:Gulim;
+mso-bidi-font-family:Gulim;mso-fareast-language:KO'> <span class=SpellE>&#45934;&#50612;&#50424;&#49688;</span>
+&#50630;&#51004;&#47732; &#49464;&#51060;&#48652;&#44032; &#48520;&#44032;&#45733;&#54633;&#45768;&#45796;<span lang=EN-US>.</span></span><span lang=EN-US
+style='mso-fareast-language:KO'><br>
+&quot;<span class=SpellE>Profile.dat</span>&quot;</span><span class=SpellE><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#51032;</span></span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'> &#49549;&#49457;&#50640;
+&#51069;&#44592;&#51204;&#50857;&#51060; &#51080;&#45716;&#51648; &#54869;&#51064;&#54644;&#51452;&#49464;&#50836;<span lang=EN-US>.</span></span><span lang=EN-US
+style='mso-fareast-language:KO'><br>
+<br>
+</span><span style='color:#DD0000;mso-fareast-language:KO'>■<span lang=EN-US>256</span></span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;color:#DD0000;mso-fareast-language:
+KO'>&#49353; &#54868;&#47732;&#50640;&#49436; &#44592;&#46041;<span lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:
+KO'><br>
+<br>
+</span><span style='mso-fareast-language:KO'>→<span lang=EN-US>16bit</span></span><span
+style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:KO'>&#52860;&#46972;
+&#51060;&#49345;&#51032; &#54868;&#47732;&#51012; &#49345;&#51221;&#54616;&#44256; &#51228;&#51089;&#54616;&#50688;&#49845;&#45768;&#45796;<span lang=EN-US>.</span></span><span lang=EN-US
+style='mso-fareast-language:KO'><br>
+256</span><span style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:
+KO'>&#49353;&#50640;&#49436; <span class=SpellE>&#54540;&#47112;&#51060;&#54616;&#47732;</span> &#44049;&#51088;&#44592; &#49353;&#49345;&#51060; <span class=SpellE>&#48148;&#45068;&#45716;&#46321;</span></span><span
+lang=EN-US style='mso-fareast-language:KO'><br>
+</span><span style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:
+KO'>&#47566;&#51008; &#51060;&#49345;&#51060; <span class=SpellE>&#49373;&#44600;&#49688;</span> &#51080;&#49845;&#45768;&#45796;<span lang=EN-US>.</span></span><span
+lang=EN-US style='mso-fareast-language:KO'><br>
+<br>
+</span><span style='color:#DD0000;mso-fareast-language:KO'>■<span lang=EN-US>
+&quot;error&quot; </span></span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;color:#DD0000;mso-fareast-language:KO'>&#54028;&#51068;<span lang=EN-US>.</span></span><span
+lang=EN-US style='mso-fareast-language:KO'><br>
+<br>
+</span><span style='font-family:Gulim;mso-bidi-font-family:Gulim;mso-fareast-language:
+KO'>&#53945;&#51221;&#50640;&#47084;&#47196; &#44172;&#51076;&#51060; &#51333;&#47308;&#46108; &#44221;&#50864;<span lang=EN-US>, </span><span class=SpellE>&#49892;&#54077;&#54028;&#51068;&#44284;</span> &#44057;&#51008;
+&#54260;&#45908;&#50640;</span><span lang=EN-US style='mso-fareast-language:KO'><br>
+&quot;error&quot;</span><span style='font-family:Gulim;mso-bidi-font-family:
+Gulim;mso-fareast-language:KO'>&#46972;&#45716; &#54028;&#51068;&#51060; &#49373;&#44609;&#45768;&#45796;<span lang=EN-US>. </span>&#51060; &#54028;&#51068;&#51008; &#49325;&#51228;&#54644;&#46020; &#49345;&#44288;
+&#50630;&#49845;&#45768;&#45796;<span lang=EN-US>.</span></span><span lang=EN-US style='mso-fareast-language:
+KO'><br>
+<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></p>
+
 </div>
-</body></html>
+
+</div>
+
+</body>
+
+</html>

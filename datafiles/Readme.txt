@@ -1,18 +1,21 @@
-<Cave Story ~ Doukutsu Monogatari> (C) Studio Pixel 2004
+＜동굴 이야기＞ (C)개발실 Pixel 2004
 
-Doukutsu.exe - Main Game Program
-DoConfig.exe - Game Configuration utility
-Manual.html - Explains the game's mechanics and troubleshooting options
-Profile.dat - Save data (appears after first save.)
+ㆍDoukutsu.exe：게임 본체.
+ㆍDoConfig.exe：게임 환경설정.
+ㆍManual.html ：게임 소개, 및 설명.
+ㆍProfile.dat ：세이브 데이터（세이브하면 생깁니다）
 
-This program is freeware.
-Neither Studio Pixel nor Aeon Genesis is responsible if it does Bad Things to your computer.
-(Of course, it shouldn't, but that's beside the point.)
+이 소프트는 프리웨어 소프트입니다.
+실행 중 사고는 사용자의 책임입니다.
+(제작에 악의가 없는 것을 이해해주십시오)
 
-Here is the address of the author's homepage.
+연락용으로 홈페이지의 주소를 적습니다.
 http://hp.vector.co.jp/authors/VA022293/
 
---The map is not usable unless you have the "Map System" item.
---If you have problems with getting two arrow keys to work at once, please use the < > ? settings.
---Please use Courier New as the font. Others cannot be guaranteed to work.
---If the keyboard controls are not responding, please disable "Use Gamepad" through DoConfig.exe.
+-
+역자 주
+이 한글화는 역자 나름의 번역 + DC 고전게임 갤러리의 번역 +
+역자 나름의 그래픽 한글화 + 디시 고전게임 갤러리의 소개 페이지 번역
+이 종합된 한글화입니다
+고전게임 갤러리의 번역자가 출처 적기를 원하지 않기에 적지 않습니다
+저도 안 적음
