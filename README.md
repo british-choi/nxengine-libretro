@@ -10,3 +10,5 @@ http://studiopixel.sakura.ne.jp/archives/index.html
 
 The Aeon Genesis translation is available from:
 http://agtp.romhack.net/project.php?id=cavestory
+
+한글지원 (한글2350 + 특문166)
